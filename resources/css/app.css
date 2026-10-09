@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Mengimpor konfigurasi custom Anda ke Tailwind v4 */
+@config "../../tailwind.config.js";

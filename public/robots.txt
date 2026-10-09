@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Arahkan Google langsung ke sitemap otomatis Laravel Anda
+Sitemap: https://balieasevisa.com/sitemap.xml
