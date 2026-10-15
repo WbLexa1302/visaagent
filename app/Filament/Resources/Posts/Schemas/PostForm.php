@@ -19,7 +19,9 @@ class PostForm
                 FileUpload::make('cover_image')
                     ->label('Cover Image')
                     ->image()
+                    ->disk('public') // Memastikan tersimpan di disk public
                     ->directory('posts-covers')
+                    ->visibility('public') // <-- Tambahkan ini
                     ->columnSpanFull(),
 
                 // Input Judul
