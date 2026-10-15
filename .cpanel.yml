@@ -2,6 +2,3 @@ deployment:
   tasks:
     - export DeploymentPath=/home/chly4517/public_html/balieasevisa.com
     - /bin/cp -R * $DeploymentPath
-    - cd $DeploymentPath && /usr/local/bin/php artisan config:cache
-    - cd $DeploymentPath && /usr/local/bin/php artisan route:cache
-    - cd $DeploymentPath && /usr/local/bin/php artisan migrate --force
